@@ -3,9 +3,11 @@
 _reports
 *.log
 .classpath
+/.clj-kondo
 .gems
 .idea
 .lein*
+/.lsp
 .kitchen
 .nrepl-port
 .project
