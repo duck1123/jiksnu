@@ -1,7 +1,5 @@
 FROM clojure
 
-MAINTAINER Daniel E. Renfer <duck@kronkltd.net>
-
 ENV APP_HOME /app
 WORKDIR ${APP_HOME}
 
