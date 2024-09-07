@@ -1,11 +1,11 @@
 FROM clojure
 
-ENV APP_HOME /app
+ENV APP_HOME=/app
 WORKDIR ${APP_HOME}
 
 # Default application settings
-ENV JIKSNU_DB_HOST mongo
-ENV HTTP_PORT 8080
+ENV JIKSNU_DB_HOST=mongo
+ENV HTTP_PORT=8080
 
 # Expose HTTP port
 EXPOSE 8080
